@@ -1,0 +1,5 @@
+---
+# tasks file for demo-pause
+- name: Pause for 10 seconds
+  ansible.builtin.pause:
+    seconds: 10
