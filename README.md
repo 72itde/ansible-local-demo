@@ -3,11 +3,16 @@
 ## about
 
 This repository is a public sample repository for our remote configuration management tool.
-It's designed to test our remote configuration management client on your systems without having any impact on your system.
+It's designed to test our remote configuration management client on your systems without having any impact on your system, so there's only one task: have a 10-second-break.
+
+
+```
+- name: Pause for 10 seconds
+  ansible.builtin.pause:
+    seconds: 10
+```
 
 The remote configuration management tool is a program designed to (secure) checkout a (secure) git repository containing any ansible playbooks you need to configure your Linux systems - both client and servers.
-
-The only thing it does is making a 10 second pause.
 
 ## manually testing
 
