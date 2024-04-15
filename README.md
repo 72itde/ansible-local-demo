@@ -24,7 +24,7 @@ ansible-playbook playbook.yaml --inventory 127.0.0.1,
 
 ## agent testing
 
-Since this is a public repository you can use test the agent both with or without authentication.
+Since this is a public repository you can use for testing the client both with or without authentication.
 
 ## compatibility
 
